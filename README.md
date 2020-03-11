@@ -25,3 +25,48 @@ The dataset used for this analysis was build by myself using the help of [fychar
 
 
 In the dataset we can find the following columns:
+
+Artist: Name of the artist
+Position: Position during the week
+Streams: Number of streams during the week
+Track Name: Name of the track
+Acousticness: The higher the value the more acoustic the song is
+Analysis_url: The link or gathering the info
+Danceability: The higher the value, the easier it is to dance to this song
+Date: The first day of the week
+Duration_ms: Duration of the song in ms
+Energy: The energy of a song, the higher the value the more energetic the song
+Id_caller: Spotify id of the song
+Instrumentalness: How instrumental is the song 
+Liveness: The higher the value, the more likely the song is a live recording
+Loudness: The higher the value, the louder the song
+Region: Where the song was stream
+Speechiness: The higher the value the more spoken word the song contains
+Valence: The higher the value, the more positive mood for the song
+Genre: The genre of the song 
+
+## Workflow
+
+I have always been very pasionate about music so i decided to do my final project about that. I was lookig for a date bas to used and i stumble upon the spotipy library for python which help me gathered the data of the songs it was realy complecated to make it work properlly but after sometime i manage to make it work properlly and was able to download all the csv files for each countrie where spotify is available. 
+
+After i already got the data of the songs and its corresponding ids i started using the spotify API. I had to register as a developer and the reasons for using the API. After going to that process i got the rights to used it but connecting to it took a long time. After i figure out how to connect with the API i manage to get the characteristics of the songs and the genre. 
+
+After getting each individual countrie csv i merge them together to create the dataset i would work with, then i join the characteristics trough the id and also the genre. 
+
+Afterwards i did a quick analysis with python to see if there is any missing values, i clean the data, fill the missing values,slice the date to have just the first day of te week and after that i was done and ready to dive deep on the data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
