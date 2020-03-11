@@ -26,24 +26,24 @@ The dataset used for this analysis was build by myself using the help of [fychar
 
 In the dataset we can find the following columns:
 
-Artist: Name of the artist
-Position: Position during the week
-Streams: Number of streams during the week
-Track Name: Name of the track
-Acousticness: The higher the value the more acoustic the song is
-Analysis_url: The link or gathering the info
-Danceability: The higher the value, the easier it is to dance to this song
-Date: The first day of the week
-Duration_ms: Duration of the song in ms
-Energy: The energy of a song, the higher the value the more energetic the song
-Id_caller: Spotify id of the song
-Instrumentalness: How instrumental is the song 
-Liveness: The higher the value, the more likely the song is a live recording
-Loudness: The higher the value, the louder the song
-Region: Where the song was stream
-Speechiness: The higher the value the more spoken word the song contains
-Valence: The higher the value, the more positive mood for the song
-Genre: The genre of the song 
+- Artist: Name of the artist
+- Position: Position during the week
+- Streams: Number of streams during the week
+- Track Name: Name of the track
+- Acousticness: The higher the value the more acoustic the song is
+- Analysis_url: The link or gathering the info
+- Danceability: The higher the value, the easier it is to dance to this song
+- Date: The first day of the week
+- Duration_ms: Duration of the song in ms
+- Energy: The energy of a song, the higher the value the more energetic the song
+- Id_caller: Spotify id of the song
+- Instrumentalness: How instrumental is the song 
+- Liveness: The higher the value, the more likely the song is a live recording
+- Loudness: The higher the value, the louder the song
+- Region: Where the song was stream
+- Speechiness: The higher the value the more spoken word the song contains
+- Valence: The higher the value, the more positive mood for the song
+- Genre: The genre of the song 
 
 ## Workflow
 
