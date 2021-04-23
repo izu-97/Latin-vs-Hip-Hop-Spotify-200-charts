@@ -1,6 +1,6 @@
 # Latin vs Hip Hop on Spotify 200 charts
 
-Mateo Izurita
+Mateo Izurieta
 
 06-03-20
 
